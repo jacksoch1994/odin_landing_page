@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+* {
+    border: 2px solid red;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 0px 16%;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    align-items: center;
+}
+
+.page-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.header-links a {
+    display: block;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: auto;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    background-color: #1F2937;
+}
+
+#hero {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #1F2937;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+#hero img{
+    margin-left: auto;
+    flex: 1 0 0;
+    max-width: 50%;
+}
+
+#hero-desc {
+    flex: 1;
+    display: flexbox;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+#hero-desc h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
