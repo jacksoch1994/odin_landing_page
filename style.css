@@ -1,24 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 
 * {
-    border: 2px solid red;
+    border: 0px solid red;
     font-family: roboto, sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .content {
-    padding: 0px 16%;
+    width: 1080px;
+    margin: 0px auto;
 }
+
+
 
 .header-links {
     display: flex;
     margin-left: auto;
     font-size: 18px;
     align-items: center;
+    gap: 26px;
 }
 
 .page-title {
@@ -38,23 +43,42 @@ body {
 
 footer {
     text-align: center;
-    height: 50px;
+    height: 100px;
     margin-top: auto;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#foot {
+    background-color: #1F2937;
+    height: 100px;
+    
 }
 
 header {
     height: 60px;
     display: flex;
+    
+}
+
+#header-section {
     background-color: #1F2937;
 }
 
 #hero {
     display: flex;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 150px;
     background-color: #1F2937;
     gap: 50px;
     justify-content: space-between;
+}
+
+#hero-section {
+    background-color: #1F2937;
 }
 
 #hero img{
@@ -65,12 +89,140 @@ header {
 
 #hero-desc {
     flex: 1;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     max-width: 50%;
+    justify-content: space-between;
 }
 
 #hero-desc h1 {
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
+    margin: 0px;
 }
+
+#hero-desc p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+#hero-desc button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 126px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#section-1 {
+    height: 500px;
+}
+
+#image-display {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+img-card {
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    color: #3d3c3c;
+
+}
+
+img-card img {
+    width: 170px;
+    height: 170px;
+    border-radius: 16px;
+    border: 4px solid #3882F6;
+}
+
+#section-2 {
+    background-color: #E5E7EB;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-3 {
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 46px;
+}
+
+#quote-section {
+    margin: auto;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+    width: 920px;
+    padding: 0 80px;
+}
+
+#quote-name {
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+#call-to-action {
+    background-color: #3882F6;
+    height: 160px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0px 80px;
+    box-sizing: border-box;
+}
+
+#call-to-action button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 124px;
+    height: 38px;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-left: auto;
+}
+
+#call-to-action h1 {
+    color: #F9FAF8;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#call-to-action p {
+    font-size: 24px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
